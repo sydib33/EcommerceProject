@@ -1,0 +1,224 @@
+{
+  "users": [
+    {
+      "username": "SYED IBRAHIM",
+      "phone": "8130614255",
+      "email": "si3867674@gmail.com",
+      "password": "Syed@123",
+      "id": "yjAQL0koAyo"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Wireless Headphones",
+      "image": "./server/images/wireless-headphones.jpg",
+      "price": 2499,
+      "description": "Premium wireless headphones with noise cancellation and deep bass."
+    },
+    {
+      "id": "2",
+      "name": "Smart Watch",
+      "image": "./server/images/smart-watch.jpg",
+      "price": 3999,
+      "description": "Smart watch with fitness tracking, heart rate monitoring and notifications."
+    },
+    {
+      "id": "3",
+      "name": "Bluetooth Speaker",
+      "image": "./server/images/bluetooth-speaker.jpg",
+      "price": 1799,
+      "description": "Portable Bluetooth speaker with powerful sound and long battery life."
+    },
+    {
+      "id": "4",
+      "name": "Gaming Mouse",
+      "image": "./server/images/gaming-mouse.jpg",
+      "price": 1299,
+      "description": "Ergonomic gaming mouse with adjustable DPI and RGB lighting."
+    },
+    {
+      "id": "5",
+      "name": "Mechanical Keyboard",
+      "image": "./server/images/mechanical-keyboard.jpg",
+      "price": 3499,
+      "description": "Mechanical keyboard with tactile switches and customizable RGB lighting."
+    },
+    {
+      "id": "6",
+      "name": "Laptop Backpack",
+      "image": "./server/images/laptop-backpack.jpg",
+      "price": 1499,
+      "description": "Durable laptop backpack with multiple compartments and water resistance."
+    },
+    {
+      "id": "7",
+      "name": "USB-C Charger",
+      "image": "./server/images/usb-c-charger.jpg",
+      "price": 899,
+      "description": "Fast charging USB-C adapter suitable for smartphones and tablets."
+    },
+    {
+      "id": "8",
+      "name": "Power Bank",
+      "image": "./server/images/power-bank.jpg",
+      "price": 1599,
+      "description": "10000mAh portable power bank with fast charging support."
+    },
+    {
+      "id": "9",
+      "name": "Wireless Earbuds",
+      "image": "./server/images/wireless-earbuds.jpg",
+      "price": 2199,
+      "description": "Compact wireless earbuds with clear audio and charging case."
+    },
+    {
+      "id": "10",
+      "name": "Digital Camera",
+      "image": "./server/images/digital-camera.jpg",
+      "price": 18999,
+      "description": "High-resolution digital camera for photography and video recording."
+    },
+    {
+      "id": "11",
+      "name": "Running Shoes",
+      "image": "./server/images/running-shoes.jpg",
+      "price": 2999,
+      "description": "Lightweight running shoes with cushioned soles and breathable material."
+    },
+    {
+      "id": "12",
+      "name": "Classic Wrist Watch",
+      "image": "./server/images/classic-wrist-watch.jpg",
+      "price": 4999,
+      "description": "Elegant wrist watch with a minimalist design and stainless steel strap."
+    },
+    {
+      "id": "13",
+      "name": "Sunglasses",
+      "image": "./server/images/sunglasses.jpg",
+      "price": 999,
+      "description": "Stylish UV-protection sunglasses suitable for everyday wear."
+    },
+    {
+      "id": "14",
+      "name": "Leather Wallet",
+      "image": "./server/images/leather-wallet.jpg",
+      "price": 799,
+      "description": "Compact leather wallet with multiple card slots and a cash compartment."
+    },
+    {
+      "id": "15",
+      "name": "Travel Water Bottle",
+      "image": "./server/images/travel-water-bottle.jpg",
+      "price": 599,
+      "description": "Reusable insulated stainless steel water bottle."
+    },
+    {
+      "id": "16",
+      "name": "Coffee Maker",
+      "image": "./server/images/coffee-maker.jpg",
+      "price": 4599,
+      "description": "Automatic coffee maker for preparing fresh coffee at home."
+    },
+    {
+      "id": "17",
+      "name": "Electric Kettle",
+      "image": "./server/images/electric-kettle.jpg",
+      "price": 1299,
+      "description": "Fast-boiling electric kettle with automatic shut-off functionality."
+    },
+    {
+      "id": "18",
+      "name": "Table Lamp",
+      "image": "./server/images/table-lamp.jpg",
+      "price": 1099,
+      "description": "Modern LED table lamp with adjustable brightness."
+    },
+    {
+      "id": "19",
+      "name": "Office Chair",
+      "image": "./server/images/office-chair.jpg",
+      "price": 7999,
+      "description": "Ergonomic office chair with adjustable height and lumbar support."
+    },
+    {
+      "id": "20",
+      "name": "Monitor Stand",
+      "image": "./server/images/monitor-stand.jpg",
+      "price": 1499,
+      "description": "Desk monitor stand designed to improve posture and organize workspace."
+    },
+    {
+      "id": "21",
+      "name": "Smartphone",
+      "image": "./server/images/smartphone.jpg",
+      "price": 24999,
+      "description": "Modern smartphone with a high-resolution display and powerful processor."
+    },
+    {
+      "id": "22",
+      "name": "Tablet",
+      "image": "./server/images/tablet.jpg",
+      "price": 17999,
+      "description": "Portable tablet suitable for entertainment, reading and productivity."
+    },
+    {
+      "id": "23",
+      "name": "LED Monitor",
+      "image": "./server/images/led-monitor.jpg",
+      "price": 11999,
+      "description": "Full HD LED monitor with vibrant colors and crisp visuals."
+    },
+    {
+      "id": "24",
+      "name": "Webcam",
+      "image": "./server/images/webcam.jpg",
+      "price": 1999,
+      "description": "Full HD webcam ideal for video calls, streaming and online meetings."
+    },
+    {
+      "id": "25",
+      "name": "Portable SSD",
+      "image": "./server/images/portable-ssd.jpg",
+      "price": 5999,
+      "description": "Fast portable SSD for storing and transferring large files."
+    },
+    {
+      "id": "26",
+      "name": "Desk Organizer",
+      "image": "./server/images/desk-organizer.jpg",
+      "price": 699,
+      "description": "Minimalist desk organizer for stationery and office accessories."
+    },
+    {
+      "id": "27",
+      "name": "Sofa Cushion",
+      "image": "./server/images/sofa-cushion.jpg",
+      "price": 499,
+      "description": "Soft decorative cushion for sofas, chairs and beds."
+    },
+    {
+      "id": "28",
+      "name": "Wall Clock",
+      "image": "./server/images/wall-clock.jpg",
+      "price": 899,
+      "description": "Modern silent wall clock with a stylish minimalist design."
+    },
+    {
+      "id": "29",
+      "name": "Fitness Yoga Mat",
+      "image": "./server/images/fitness-yoga-mat.jpg",
+      "price": 1199,
+      "description": "Non-slip exercise yoga mat with comfortable cushioning."
+    },
+    {
+      "id": "30",
+      "name": "Electric Trimmer",
+      "image": "./server/images/electric-trimmer.jpg",
+      "price": 1699,
+      "description": "Rechargeable grooming trimmer with adjustable length settings."
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
