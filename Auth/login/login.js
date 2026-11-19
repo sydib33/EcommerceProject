@@ -32,9 +32,16 @@ form.onsubmit = ((e)=>{
         return v.json()
     })
     .then((v2)=>{
-        console.log(v2);
-        let [data] = v2
-        data.password == password ? localStorage.setItem("authorized","true"):alert("Wrong Credential")
+        console.log(v2); //array of object 
+        let [data] = v2 // array destructuring
+        // console.log(data)  object
+        
+        if(data != undefined){
+            data.password == password ? localStorage.setItem("authorized","true"):alert("Wrong Credential")
+        }
+        else{
+            alert("Invalid Email")
+        }
     })
     .catch((e)=>{
         console.log(e);

@@ -2,28 +2,6 @@ let warningDiv = document.getElementById("error-warnings")
 
 const errorBox = document.getElementById("error-warnings");
 
-// let arr = [
-//     {
-//         id:"phone",
-//         event:"change",
-//         express: /^[0-9]{10}$/,
-//         condition: false,
-//         message: "The phone number should be of 10 digit"
-//     }
-//     ,{
-//         id:"password",
-//         event:"change",
-//         express : /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@!$%#*^&])[A-Za-z\d@!$%#*^&]{8,}$/,
-//         condition: false,
-//         message: "Password should contain Capital,small alphabets,digits and special character with min-length 8"
-//     },
-//     {
-//         id:"confirm-password",
-//         event:"change",
-//         condition: document.getElementById("password"),
-//         message: "Password should contain Capital,small alphabets,digits and special character with min-length 8"
-//     }
-// ]
 
 let arr = [
 {
@@ -46,21 +24,6 @@ let arr = [
 ];
 
 
-// let phone = document.getElementById("phone")
-// phone.addEventListener("change",(e)=>{
-//     // console.log(e.target.value)
-//     // console.log(regex.test(e.target.value));
-
-//     let regex = /[0-9]{10}/
-//     let condition = regex.test(e.target.value)
-//     if(!condition){
-//         warningDiv.innerText = "The phone number should be of 10 digit"
-//     }
-//     else{
-//         warningDiv.innerText = ""
-//     }
-
-// })
 
 
 let verified = false
@@ -69,8 +32,6 @@ arr.forEach((v)=>{
     let element  = document.getElementById(v.id)
     element.addEventListener("input",(e)=>{
     let regex = v.express
-    // let condition = regex.test(e.target.value)
-    // let condition = (v.express != undefined)? regex.test(e.target.value): v.condition.value == e.target.value
     const condition =
     v.express !== undefined
         ? v.express.test(e.target.value)
